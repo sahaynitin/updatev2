@@ -6,7 +6,7 @@ from hachoir.parser import createParser
 from hachoir.metadata import extractMetadata
 from ..tools.fixes import fix_thumb
 from ..tools.timegap_check import timegap_check
-from ..tools.progress_bar import progress_bar, take_screen_shot
+from ..tools.display_progress import progress_bar, take_screen_shot
 from ..tools.text import TEXT
 from ..config import Config
 import random
