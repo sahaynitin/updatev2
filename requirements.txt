@@ -1,0 +1,13 @@
+pyrogram
+pyromod
+tgcrypto
+Pillow
+pymongo
+hachoir
+psycopg2-binary
+sqlalchemy
+pyrogram
+aiofiles
+motor
+dnspython
+
