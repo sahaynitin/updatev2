@@ -35,7 +35,6 @@ class TEXT:
 
 ☞︎︎︎ Use Normal Font Style As File Name
 ☞︎︎︎ After File Name Give File category(Mkv/Mp4/..etc)
-☞︎︎︎ Wait Untill Previous Process succsus
 """
 
     START_TEXT = """Hi {user_mention},
