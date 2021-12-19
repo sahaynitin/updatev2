@@ -22,6 +22,8 @@ class TEXT:
 
 ☞ <b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a>
 
+☞ <b>Source Code :</b> <a href='https://t.me/tellybots'>Click Here</a>
+
 """
 
     HELP_USER = """**Follow Below Steps:**
@@ -31,13 +33,21 @@ class TEXT:
 ☞︎︎︎ Now send me the Telegram file you want to rename.
 ☞︎︎︎ Send the new name when bot ask.
 
-**Increase Speed**
+**To Increase Bot Speed**
 
 ☞︎︎︎ Use Normal Font Style As File Name
-☞︎︎︎ After File Name Give File category(Mkv/Mp4/..etc)
+☞︎︎︎ After File Name Give File category(Mkv |Mp4 |..etc)
 """
 
-    START_TEXT = """Hi {user_mention},
+    START_TEXT = """Hi {user_mention}
 
-I am a telegram renamer Bot. Use /
+This is a file renamer bot.
+
+You can use as a file to streamable video converter or video to file.
+
+Also you can use as a video converter.
+
+Use help Command to know how to use me.
+
+Made With 💕 By @Tellybots_4u
 """
