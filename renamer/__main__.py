@@ -30,7 +30,7 @@ def main():
     startup_msg = f"Successfully deployed your Renamer at @{me.username}\n"
     startup_msg += f"Pyrogram Version: V{__version__}\n"
     startup_msg += f"Python Version: V{platform.python_version()}\n\n"
-    startup_msg += "Join @TMWAD For More UseFull Bots "
+    startup_msg += "Bot Started Join @Tellybots "
     print(startup_msg)
 
     idle()
