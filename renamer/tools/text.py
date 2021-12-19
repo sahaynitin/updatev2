@@ -2,21 +2,21 @@ from pyrogram.emoji import *
 
 
 class TEXT:
-    DOWNLOAD_START = "Please Wait I'm Trying To Download 😇"
-    UPLOAD_START = "Please Wait .I'm Ready To Upload🔥"
-    UPLOAD_SUCESS = "Thanks for using Me. \n Update Channel @TMWAD 🥳"
+    DOWNLOAD_START = "Trying To Download 📩"
+    UPLOAD_START = "Uploading Please Wait 🌀"
+    UPLOAD_SUCESS = "Thanks for using Me @Tellybots 🥳"
     BANNED_USER_TEXT = "Hey bro, you are **banned** from using me.😡"
     NOT_LOGGED_TEXT = "This bot was only for private use. If you want to use this bot you need to send me correct password in the format `/login bot_password`"
     SAVED_CUSTOM_THUMBNAIL = "Thumbnail Saved Permanently ✅"
     DELETED_CUSTOM_THUMBNAIL = "Thumbnail Deleted Successfully ✅"
-    NO_CUSTOM_THUMB_NAIL_FOUND = "𝖭𝗈 𝗍𝗁𝗎𝗆𝖻𝗇𝖺𝗂𝗅 𝖥𝗈𝗎𝗇𝖽 🐙"
+    NO_CUSTOM_THUMB_NAIL_FOUND = "𝖭𝗈 T𝗁𝗎𝗆𝖻𝗇𝖺𝗂𝗅 𝖥𝗈𝗎𝗇𝖽 🖼️"
     THUMBNAIL_CAPTION = f"{BACKHAND_INDEX_POINTING_UP_LIGHT_SKIN_TONE} Your Permanent thumbnail"
 
     ABOUT = """
 
 ☞ My Name : Renamer Bot
 
-☞ Updates : @TMWAD    
+☞ Updates : @Tellybots    
 
 ☞ Language : Python3
 
