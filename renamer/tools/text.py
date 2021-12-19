@@ -39,7 +39,7 @@ class TEXT:
 ☞︎︎︎ After File Name Give File category(Mkv |Mp4 |..etc)
 """
 
-    START_TEXT = """Hi {user_mention}
+    START_TEXT = """Hey {user_mention}
 
 I am Telegram Most Powerful renamer bot.
 
