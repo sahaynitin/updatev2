@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 ################## Saving Cption 📝 ##################
 
-@Telybots.on_message(filters.command("caption") & filters.private & filters.incoming)
+@Tellybots.on_message(filters.command("caption") & filters.private & filters.incoming)
 async def save_caption(c, m):
     if Config.BANNED_USERS:
         if m.from_user.id in Config.BANNED_USERS:
