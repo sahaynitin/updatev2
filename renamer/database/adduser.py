@@ -1,6 +1,6 @@
 # (c) @AbirHasan2005
 
-from configs import Config
+from renamer.config import Config
 from renamer.database.access import db
 from pyrogram import Client
 from pyrogram.types import Message
