@@ -118,9 +118,6 @@ async def media(c, m):
         await send_message.edit(TEXT.UPLOAD_START)
         upload_as_doc = await db.get_upload_as_doc(event.from_user.id)
         if upload_as_doc is True:
-
-        if trace_msg:
-            await trace_msg.edit(f'**User Name:** {m.from_user.mention(style="md")}\n\n**User Id:** `{m.from_user.id}`\n\n**New File Name:** `{new_file_name}`\n\n**Status:** Uploading')
     except:
         pass
 
