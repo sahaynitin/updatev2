@@ -118,8 +118,6 @@ async def media(c, m):
         await send_message.edit(TEXT.UPLOAD_START)
         upload_as_doc = await db.get_upload_as_doc(event.from_user.id)
         if upload_as_doc is True:
-    except:
-        pass
 
     caption = str(new_file_name)
     if Config.CUSTOM_CAPTION:
