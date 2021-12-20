@@ -7,7 +7,7 @@ from ..config import Config
 import logging
 logger = logging.getLogger(__name__)
 from renamer.settings import OpenSettings
-
+from pyrogram.types import Message
 ### Help command ###
 
 @Tellybots.on_message(filters.command("help") & filters.private & filters.incoming)
