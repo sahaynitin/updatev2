@@ -14,7 +14,7 @@ import time
 import os
 import logging
 logger = logging.getLogger(__name__)
-from renamer.database access import db
+from renamer.database.access import db
 
 @Tellybots.on_message((filters.document | filters.video) & filters.private & filters.incoming)
 async def media(c, m):
