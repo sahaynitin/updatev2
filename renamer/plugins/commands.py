@@ -138,6 +138,6 @@ async def password(c, m):
     else:
         await m.reply_text(f'**This bot was publicly available to all {SMILING_FACE_WITH_HEARTS}.**\nIf you are the owner of the bot to make bot private add bot password in Config Vars {LOCKED_WITH_KEY}.', quote=True)
 @Tellybots.on_message(filters.private & filters.command("settings"))
-async def settings_handler(bot: Client, m: Message):
+async def settings_handler(bot: Tellybots, m: Message):
     editable = await m.reply_text("Please Wait ...", quote=True)
     await OpenSettings(editable, m.from_user.id)
